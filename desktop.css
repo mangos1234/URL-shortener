@@ -1,0 +1,152 @@
+.menu {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu ul .left, .menu ul .right {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+.menu ul .left {
+  padding-left: 5%;
+}
+.menu ul .right {
+  display: flex;
+  justify-content: end;
+}
+.menu ul li {
+  padding: 0;
+  width: 20%;
+  font-weight: 700;
+  color: lightgray;
+}
+.menu ul li:hover {
+  color: black;
+}
+
+.hamburgerContainer {
+  display: none;
+}
+
+.top {
+  display: flex;
+  width: 100vw;
+  flex-direction: row-reverse;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.input .inputbox {
+  width: 80%;
+}
+.input .inputbox #textbox {
+  padding: 4%;
+}
+.input #go {
+  width: 20%;
+}
+
+.shortenedLinks hr {
+  display: none;
+}
+.shortenedLinks .link {
+  flex-direction: row;
+  padding: 1%;
+  justify-content: space-between;
+  align-items: center;
+}
+.shortenedLinks .link .fullsharelink {
+  padding-bottom: 0;
+}
+.shortenedLinks .link .copyLink {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: end;
+}
+.shortenedLinks .link .copyLink button {
+  width: 50%;
+  padding: 1%;
+}
+
+.text p {
+  padding: 0 15%;
+}
+
+.whitesquares {
+  flex-direction: row;
+}
+
+.whitesquare {
+  margin: 10% 1.5% 0 1.5%;
+}
+
+.purplebackground {
+  padding-bottom: 10%;
+}
+
+.prefooter {
+  background: url(./images/bg-boost-desktop.svg) no-repeat center center/cover;
+  background-color: hsl(257deg, 27%, 26%);
+  padding: 8%;
+  font-weight: 700;
+}
+.prefooter button {
+  font-weight: 700;
+  width: 15%;
+  padding: 2%;
+}
+.prefooter h2 {
+  padding: 2%;
+}
+
+.footer {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.footer h1 {
+  padding: 0;
+}
+.footer .media {
+  padding: 0;
+}
+.footer .heading {
+  padding-top: 3%;
+}
+
+.top {
+  width: 100%;
+}
+.top .hero {
+  width: 50%;
+}
+.top .hero img {
+  padding: 5%;
+}
+.top .textAndButton {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.top .textAndButton .text {
+  text-align: left;
+}
+.top .textAndButton .text h1 {
+  padding-left: 15%;
+}
+.top .textAndButton button {
+  margin-left: 18%;
+}/*# sourceMappingURL=desktop.css.map */
